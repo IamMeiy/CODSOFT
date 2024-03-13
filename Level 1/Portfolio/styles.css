@@ -1,0 +1,240 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+
+/* This Below code is for Header - it contains logo and Nav bar */
+.header{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.logo{
+    width:60%;
+    zoom: 40%;
+}
+
+.nav{
+    width: 40%;
+    align-items: flex-end;
+}
+
+.nav, ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.nav-list, li{
+    float: left;
+}
+
+.nav-list, li, a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 6px 8px;
+    text-decoration: none;
+}
+
+
+/* This Below code is Contain information about Welcome */
+.welcome{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.dev-logo{
+    margin-left: 60px;
+    zoom:50%;
+}
+
+.wel-heading{
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+.wel-para{
+    font-size: 30px;
+    text-align: justify;
+    font-style: italic;
+    margin-left: 30px;
+}
+
+/* This below code is contains info, about page */
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.dev-img{
+    zoom: 10%;
+    margin-right: 80rem;
+}
+
+.about-dev{
+    margin-left: 20rem;
+}
+.about-heading{
+    font-size: 26px;
+
+}
+
+.about-para{
+    font-size: 22px;
+}
+
+/* This Below code is for skills info */
+
+.skills{
+    height: 100vh;
+    width: 100%;
+}
+
+.skills-content{
+    width: 50%;
+    padding: 50px 0 0 60px;
+}
+
+.container{
+    background-color: rgb(192,192,192);
+    width: 80%;
+    border-radius: 15px;
+}
+
+.skill{
+    background-color: gray;
+    color: white;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.html{
+    width: 85%;
+}
+
+.css{
+    width: 70%;
+}
+
+.js{
+    width: 75%;
+}
+
+.php{
+    width: 55%;
+}
+
+.db{
+    width: 60%;
+}
+
+.react{
+    width:77%
+}
+.python{
+    width:80%
+}
+
+/* This below code is used for Project */
+
+.projects{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.projects-content{
+    width: 50%;
+    padding-right: 100px;
+}
+
+.project-para{
+    text-align: justify;
+}
+
+.project-link{
+    padding: 30px 20px;
+}
+
+.box{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 50%;
+}
+
+.box:hover{
+    background-color: rgb(222, 222, 222);
+}
+
+/* The below code is used for Contact */
+.contact{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.contact-contents{
+    text-align: center;
+    width: 100%;
+}
+
+.contact-head{
+    font-size: 36px;
+    font-style: italic;
+}
+
+.contact-head2{
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.contact-links{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-details{
+    transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover{
+    transform: translateY(10px);
+}
+
+/* This below code is for footer */
+
+.footer{
+    position: absolute;
+    bottom: 0%;
+}
+
+.footer-para{
+    display: flex;
+    align-items: center;
+}
