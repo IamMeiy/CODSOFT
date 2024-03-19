@@ -1,0 +1,19 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+
+/* This below code is for calculator outer */
+.cal-outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* This below code is for calculator inner */
+.cal-inner{
+    padding: 20px;
+    border: 1px black solid;
+}
