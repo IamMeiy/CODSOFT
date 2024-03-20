@@ -1,11 +1,17 @@
 // This below function is used for display value in text box
 function display(val){
-    document.getElementById('display').value += val;
+    let text = document.getElementById('display').value;
+    if(text==="MEIY"){
+        document.getElementById('display').value = val;
+    }
+    else{
+        document.getElementById('display').value += val;
+    }
 }
 
 // This below function is used for clear value in text box
 function clear(){
-    document.getElementById('display').value = '';
+    document.getElementById('display').value = 'MEIY';
 }
 document.getElementById('clear').addEventListener('click', clear);
 

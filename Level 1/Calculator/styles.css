@@ -29,7 +29,6 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* background-image: linear-gradient(white, black) */
 }
 
 /* This below code is for calculator inner */
@@ -42,7 +41,7 @@ body{
 /* This below code is for calculator display & clear button */
 .cal-display{
     width: 100%;
-    font-size: 26px;
+    font-size: 30px;
     background-color: aliceblue;
     outline: none;
 }
@@ -91,7 +90,7 @@ li{
     color: white;
     background-color: rgb(140, 185, 72);
     border: greenyellow;
-    font-size: 30px;
+    font-size: 26px;
     transition: background-color 0.5s;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
@@ -99,4 +98,23 @@ li{
 li:hover{
     background-color: red;
 
+}
+
+/* This below code for contact developer */
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 10px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: orange;
+    font-size: 20px;
+    font-weight: bolder;
+    transition: background-color 0.5s;
+    border-radius: 50px 20px;
+}
+
+a:hover{
+    background-color: blue;
 }
