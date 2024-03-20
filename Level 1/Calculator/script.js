@@ -1,5 +1,14 @@
-const ul = document.getElementsByName("ul")
+function display(val){
+    document.getElementById('display').value += val;
+}
+function clear(){
+    document.getElementById('display').value = '';
+}
+document.getElementById('clear').addEventListener('click', clear);
 
-ul.addEventListener("click", (event) => {
-    console.log(event.target.id);
-})
+document.getElementById('keys').addEventListener('click', function(e){
+    keys = e.target.id;
+    console.log(keys)
+    display(keys);
+});
+

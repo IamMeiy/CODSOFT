@@ -20,7 +20,24 @@ html,body{
 
 /* This below code is for calculator display & clear button */
 .cal-display{
-    
+    width: 100%;
+}
+
+input{
+    padding: 10px;
+}
+
+.cal-func{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+button{
+    margin: 0 10px;
+    width: 100px;
+    padding: 5px 0;
+
 }
 
 /* This below code is for calculator Keys */
@@ -29,11 +46,12 @@ html,body{
     display: grid;
     grid-template-columns: auto auto auto auto;
     margin: 0%;
-    padding: 20px 0 0 0; 
+    padding: 0; 
 }
 
 li{
     border: 1px solid black;
     text-align: center;
     padding: 20px;
+    margin: 3px;
 }
